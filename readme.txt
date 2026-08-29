@@ -1,8 +1,8 @@
 === Admin Posts Navigation ===
-Contributors: mbrinson
+Contributors: mbrinson, somethumb
 Tags: admin, navigation, posts, pages, editor
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 1.5.0
 License: GPLv2 or later
