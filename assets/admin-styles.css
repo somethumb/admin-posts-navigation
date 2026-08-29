@@ -1,0 +1,313 @@
+/* Classic Editor Styles */
+.twf-admin-posts-navigation-container {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* Header with dropdown */
+.twf-admin-posts-navigation-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.twf-admin-posts-navigation-container h4 {
+    margin: 0;
+    color: #1d2327;
+    font-size: 13px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+/* Sort dropdown styling - classic */
+.twf-admin-posts-nav-sort-dropdown {
+    font-size: 12px;
+    padding: 4px 8px;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    background: #fff;
+    color: #2c3338;
+    min-width: 140px;
+    transition: border-color 0.2s ease;
+}
+
+.twf-admin-posts-nav-sort-dropdown:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.twf-admin-posts-nav-sort-dropdown:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+/* Sort dropdown styling - gutenberg */
+.twf-admin-posts-nav-sort-select {
+    margin-bottom: 10px;
+}
+
+/* Navigation buttons container */
+.twf-admin-posts-navigation-buttons {
+    margin-bottom: 10px;
+}
+
+.twf-admin-posts-navigation-btn {
+    margin-right: 10px !important;
+    margin-bottom: 5px !important;
+    text-decoration: none !important;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.twf-admin-posts-navigation-btn:hover {
+    text-decoration: none !important;
+    transform: translateY(-1px);
+}
+
+.twf-admin-posts-navigation-btn:focus {
+    box-shadow: 0 0 0 2px #2271b1;
+    outline: none;
+}
+
+.twf-admin-posts-navigation-info {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #dcdcde;
+}
+
+.twf-admin-posts-navigation-info small {
+    color: #646970;
+    font-size: 11px;
+}
+
+/* Gutenberg Editor Styles */
+.twf-admin-posts-navigation-gutenberg {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Gutenberg sort dropdown */
+.twf-admin-posts-nav-sort-gutenberg {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.twf-admin-posts-nav-sort-label {
+    display: block;
+    font-weight: 600;
+    font-size: 11px;
+    color: #1e1e1e;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-btn {
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-prev {
+    background: #f0f6fc;
+    border-color: #0073aa;
+    color: #0073aa;
+}
+
+.twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-next {
+    background: #f6f7f7;
+    border-color: #007cba;
+    color: #007cba;
+}
+
+.twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-btn:focus {
+    box-shadow: 0 0 0 2px #2271b1;
+    outline: none;
+}
+
+.twf-admin-posts-navigation-panel .components-panel__body-content {
+    padding: 16px;
+}
+
+/* Dropdown loading state */
+.twf-admin-posts-nav-sort-dropdown.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.twf-admin-posts-nav-sort-dropdown.loading::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ddd;
+    border-top: 2px solid #666;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(360deg); }
+}
+
+/* Sort preference indicator */
+.twf-admin-posts-nav-sort-indicator {
+    font-size: 10px;
+    color: #646970;
+    font-style: italic;
+    margin-left: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+    .twf-admin-posts-navigation-container {
+        margin: 10px 0;
+        padding: 12px;
+    }
+    
+    .twf-admin-posts-navigation-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .twf-admin-posts-nav-sort-dropdown {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .twf-admin-posts-navigation-btn {
+        display: block;
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: 8px !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .twf-admin-posts-navigation-header {
+        margin-bottom: 12px;
+    }
+    
+    .twf-admin-posts-navigation-container h4 {
+        font-size: 12px;
+    }
+    
+    .twf-admin-posts-nav-sort-dropdown {
+        font-size: 11px;
+        padding: 6px 8px;
+    }
+}
+
+/* Custom Post Type specific styles */
+.post-type-product .twf-admin-posts-navigation-container {
+    border-left: 4px solid #96588a;
+}
+
+.post-type-event .twf-admin-posts-navigation-container {
+    border-left: 4px solid #d63638;
+}
+
+/* Loading spinner in Gutenberg */
+.twf-admin-posts-navigation-gutenberg .components-spinner {
+    margin: 0 auto;
+}
+
+/* Gutenberg Components Select styling */
+.twf-admin-posts-navigation-gutenberg .components-select-control__input {
+    font-size: 12px;
+    min-height: 30px;
+    line-height: 1.4;
+}
+
+.twf-admin-posts-navigation-gutenberg .components-base-control__label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Dark mode support for Gutenberg */
+.interface-interface-skeleton__editor .twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-prev {
+    background: rgba(0, 115, 170, 0.1);
+    border-color: #0073aa;
+    color: #0073aa;
+}
+
+.interface-interface-skeleton__editor .twf-admin-posts-navigation-gutenberg .twf-admin-posts-navigation-next {
+    background: rgba(0, 124, 186, 0.1);
+    border-color: #007cba;
+    color: #007cba;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .twf-admin-posts-navigation-container {
+        border: 2px solid #000;
+    }
+    
+    .twf-admin-posts-navigation-btn {
+        border: 1px solid #000 !important;
+    }
+    
+    .twf-admin-posts-nav-sort-dropdown {
+        border: 2px solid #000;
+        background: #fff;
+        color: #000;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .twf-admin-posts-navigation-btn,
+    .twf-admin-posts-nav-sort-dropdown {
+        transition: none;
+    }
+    
+    .twf-admin-posts-navigation-btn:hover {
+        transform: none;
+    }
+    
+    .twf-admin-posts-nav-sort-dropdown.loading::after {
+        animation: none;
+    }
+}
+
+/* Focus management */
+.twf-admin-posts-navigation-container:focus-within {
+    outline: 2px solid #2271b1;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    .twf-admin-posts-navigation-container {
+        display: none;
+    }
+}

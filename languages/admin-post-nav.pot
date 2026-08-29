@@ -1,0 +1,117 @@
+# Copyright (C) 2025 Admin Posts Navigation
+# This file is distributed under the same license as the Admin Posts Navigation package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Posts Navigation 1.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/admin-posts-navigation\n"
+"POT-Creation-Date: 2025-06-26 21:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: admin-posts-navigation\n"
+
+#: admin-posts-navigation.php:85
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: admin-posts-navigation.php:95
+msgid "Security check failed."
+msgstr ""
+
+#: admin-posts-navigation.php:102
+msgid "Invalid parameters."
+msgstr ""
+
+#: admin-posts-navigation.php:134
+msgid "Admin Posts Navigation"
+msgstr ""
+
+#: admin-posts-navigation.php:135
+msgid "This plugin requires WordPress 5.0 or higher."
+msgstr ""
+
+#: admin-posts-navigation.php:144
+msgid "This plugin requires PHP 7.4 or higher."
+msgstr ""
+
+#: admin-posts-navigation.php:153
+msgid "Required WordPress functions are missing. Please check your WordPress installation."
+msgstr ""
+
+#: admin-posts-navigation.php:172
+msgid "Unable to detect supported post types. Using defaults."
+msgstr ""
+
+#. translators: %s is the post type name (e.g., "Posts", "Pages", "Products")
+#: admin-posts-navigation.php:258
+msgid "Navigate %s"
+msgstr ""
+
+#: admin-posts-navigation.php:261
+msgid "Date Published"
+msgstr ""
+
+#: admin-posts-navigation.php:262
+msgid "Alphabetical"
+msgstr ""
+
+#: admin-posts-navigation.php:263
+msgid "Post ID"
+msgstr ""
+
+#: admin-posts-navigation.php:276
+msgid "Previous"
+msgstr ""
+
+#: admin-posts-navigation.php:289
+msgid "Next"
+msgstr ""
+
+#. translators: %1$d is current position number, %2$d is total posts, %3$s is post type name
+#: admin-posts-navigation.php:301
+msgid "Position: %1$d of %2$d %3$s"
+msgstr ""
+
+#: admin-posts-navigation.php:393
+msgid "Rate limit exceeded. Please wait before making another request."
+msgstr ""
+
+#: admin-posts-navigation.php:400
+msgid "Invalid post ID."
+msgstr ""
+
+#: admin-posts-navigation.php:405
+msgid "Security check error."
+msgstr ""
+
+#: admin-posts-navigation.php:411
+msgid "Invalid post."
+msgstr ""
+
+#: admin-posts-navigation.php:415
+msgid "Unsupported post type."
+msgstr ""
+
+#: admin-posts-navigation.php:419
+msgid "You do not have permission to edit this post."
+msgstr ""
+
+#: admin-posts-navigation.php:460
+msgid "Navigation data could not be loaded."
+msgstr ""
+
+#. translators: %1$d is the number of post types, %2$s is the list of post type names
+#: admin-posts-navigation.php:620
+msgid "Active for %1$d post types: %2$s"
+msgstr ""
+
+#. translators: %s is a list of supported post types
+#: admin-posts-navigation.php:689
+msgid "Supports: %s"
+msgstr ""
