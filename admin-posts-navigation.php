@@ -4,14 +4,14 @@
  * Plugin URI: https://wordpress.org/plugins/admin-posts-navigation
  * Description: Adds Previous/Next navigation buttons to post and page edit screens in both Classic Editor and Gutenberg. Automatically supports all Custom Post Types.
  * Version: 1.5.0
- * Author: The Website Factory
- * Author URI: https://thewebsitefactory.org
+ * Author: The Website Factory; Somethumb Company
+ * Author URI: https://thewebsitefactory.org; https://somethumb.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: admin-posts-navigation
  * Domain Path: /languages
  * Requires at least: 5.0
- * Tested up to: 6.8
+ * Tested up to: 7.1
  * Requires PHP: 7.4
  */
 
